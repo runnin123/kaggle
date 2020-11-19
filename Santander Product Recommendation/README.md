@@ -58,7 +58,7 @@ ind_valo_fin_ult1 증권
 ind_viv_fin_ult1 홈 계정   
 ind_nomina_ult1 급여   
 ind_nom_pens_ult1 연금    
-ind_recibo_ult1 직불 카드   
+ind_recibo_ult1 직불 카드
 
 ## 3. 평가 척도
 MAP@7(Mean Average Precision: 예측 정확도의 평균들의 평균 값)   
