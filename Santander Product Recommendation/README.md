@@ -4,11 +4,11 @@ https://www.kaggle.com/c/santander-product-recommendation/
 상품 추천을 받는 산탄데르 은행의 고객은 소수에 불과.   
 고객들의 과거 행동 데이터 및 고객 정보 데이터를 통해 머신러닝 알고리즘 적용, 다음 달에 고객이 새롭게 구매할 상품을 예측
 
-## 2. 데이터
+## 3. 데이터
 1.5년간의 고객 정보 데이터, 보유 상품 데이터   
 → 고객의 2015-01-28 ~ 2016-05-28 기간 동안 고객의 성별, 나이, 거주지 등의 정보 데이터 및 신용카드, 저축계좌 등의 상품 보유 여부를 월별로 기록
 
-### 2-1. 고객 정보 데이터   
+### 3-1. 고객 정보 데이터   
 fecha_dato 날짜   
 ncodpers 고객 고유식별번호   
 ind_empleado 고용지표(A: active, B: ex employed, F: filial, N: not employee, P: passive)   
@@ -34,7 +34,7 @@ ind_actividad_cliente 활발성 지표
 renta 가구 총수입
 segmento 분류(01: VIP, 02: 개인, 03: 대졸)     
 
-### 2-2. 고객 보유 상품 데이터
+### 3-2. 고객 보유 상품 데이터
 ind_ahor_fin_ult1 예금   
 ind_aval_fin_ult1 보증   
 ind_cco_fin_ult1 당좌 예금   
@@ -60,7 +60,7 @@ ind_nomina_ult1 급여
 ind_nom_pens_ult1 연금    
 ind_recibo_ult1 직불 카드
 
-## 3. 평가 척도
+## 4. 평가 척도
 MAP@7(Mean Average Precision: 예측 정확도의 평균들의 평균 값)   
 → 한 고객당 최대 7개의 금융 상품을 예측하는 것이 가능   
 → 순서에 영향을 받기 때문에 정답이 앞쪽에 존재하는 것이 더 높은 점수를 받을 수 있음
